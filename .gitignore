@@ -1,0 +1,31 @@
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 导出的真实数据 / 测试产物（含真实业务数据，不上传）
+*.xlsx
+*_manifest.json
+exported_runtime/
+111/
+ceshi/
+feishu_smoke/
+feishu_exports_*/
+interactive_smoke/
+recheck_*/
+playwright_chromium_smoke/
+playwright_chromium_after_switch/
+runtime_retry_smoke/
+
+# 本地长期记忆 / 设计文档（含真实 URL 与业务信息，不上传）
+PROJECT_CONTEXT.md
+docs/
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# 编辑器
+.vscode/
+.idea/
